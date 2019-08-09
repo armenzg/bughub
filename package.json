@@ -1,0 +1,25 @@
+{
+  "name": "bughub",
+  "version": "1.0.0",
+  "description": "Bringing Github flows to Bugzilla",
+  "main": "index.js",
+  "repository": "git@github.com:armenzg/bughub.git",
+  "author": "Armen Zambrano G. <armenzg@mozilla.com>",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^6.1.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
