@@ -27,7 +27,8 @@
     "start": "parcel src/index.html",
     "build-prod": "parcel build src/index.html",
     "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src",
-    "test": "jest --watch"
+    "test": "jest",
+    "test-watch": "jest --watch"
   },
   "husky": {
     "hooks": {
